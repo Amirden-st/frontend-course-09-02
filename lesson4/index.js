@@ -6,7 +6,7 @@ var workers = [
     },
     {
         name: 'Syimyk',
-        salary: 59000
+        salary:  59000
     },
     {
         name: 'Meerim',

@@ -2,15 +2,36 @@
     box-sizing: border-box;
 }
 
+body {
+    color: #FFF; 
+}
+
+.main {
+    width: calc(50% - 7px);
+    padding: 10px;
+}
+
 .container {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
 }
 
+form {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #212121;
+    min-height: 400px;
+}
+
 .worker {
     display: flex;
-    width: 500px;
     align-items: center;
     border: 1px solid grey;
     padding: 10px;
@@ -25,3 +46,39 @@
     background-color: grey;
 }
 
+#delete-btn {
+    margin: 0 0 0 auto;
+    color: inherit;
+    background-color: red;
+    border: none;
+    padding: 7px 12px;
+    cursor: pointer;
+}
+
+.workerContainer {
+    width: calc(50% - 7px);
+    padding: 10px;
+    text-align: center;
+}
+
+.worker-info-avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: grey;
+}
+.worker-info-name {
+    font-size: 3rem;
+    margin-bottom: 5px
+}
+.worker-info-salary {
+    margin: 0;
+}
+
+.worker-info-desc {
+    border: 1px solid #FFF;
+    padding: 10px;
+    margin-top: 30px;
+    min-height: 50px;
+}
